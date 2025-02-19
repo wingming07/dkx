@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>gift-shop</title>
+ <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>GiftShop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to GiftShop!</h2>
+            <p>Find the perfect gift for any occasion!</p>
+        </div>
+    </section>
+
+    <section class="products">
+        <h2>Our Products</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="./1.jpg" alt="Product 1">
+                <h3>Gift Box</h3>
+                <p>$25</p>
+                <button onclick="showContactOptions()">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="./2.jpg" alt="Product 2">
+                <h3>Coffee Mug</h3>
+                <p>$15</p>
+                <button onclick="showContactOptions()">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="./3.jpg" alt="Product 3">
+                <h3>Plush Toy</h3>
+                <p>$30</p>
+                <button onclick="showContactOptions()">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="./3.jpg" alt="Product 3">
+                <h3>Plush Toy</h3>
+                <p>$30</p>
+                <button onclick="showContactOptions()">Buy Now</button>
+            </div>
+        </div>
+    </section>
+<section class="products">
+        <h2>Our Products</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="./1.jpg" alt="Product 1">
+                <h3>Gift Box</h3>
+                <p>$25</p>
+                <button onclick="showContactOptions()">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="./2.jpg" alt="Product 2">
+                <h3>Coffee Mug</h3>
+                <p>$15</p>
+                <button onclick="showContactOptions()">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="./3.jpg" alt="Product 3">
+                <h3>Plush Toy</h3>
+                <p>$30</p>
+                <button onclick="showContactOptions()">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="./3.jpg" alt="Product 3">
+                <h3>Plush Toy</h3>
+                <p>$30</p>
+                <button onclick="showContactOptions()">Buy Now</button>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <h2>Our Products</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="./1.jpg" alt="Product 1">
+                <h3>Gift Box</h3>
+                <p>$25</p>
+                <button onclick="showContactOptions()">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="./2.jpg" alt="Product 2">
+                <h3>Coffee Mug</h3>
+                <p>$15</p>
+                <button onclick="showContactOptions()">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="./3.jpg" alt="Product 3">
+                <h3>Plush Toy</h3>
+                <p>$30</p>
+                <button onclick="showContactOptions()">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="./3.jpg" alt="Product 3">
+                <h3>Plush Toy</h3>
+                <p>$30</p>
+                <button onclick="showContactOptions()">Buy Now</button>
+            </div>
+        </div>
+    </section>
+    <!-- Modal for Contact Options -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3>How would you like to place your order or make an enquiry?</h3>
+            <button onclick="contactWhatsApp()">WhatsApp</button>
+            <button onclick="contactEmail()">Email</button>
+        </div>
+    </div>
+<!-- Contact Button -->
+<div class="contact-btn-container">
+    <a href="mailto:info@firstitech.com" class="contact-btn">Contact Us</a>
+</div>
+    <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>About Us</h3>
+      <p>Welcome to our Gift Shop! We provide a wide variety of thoughtful gifts for every occasion.</p>
+    </div>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p>Email: support@giftshop.com</p>
+      <p>Phone: (123) 456-7890</p>
+    </div>
+    <div class="footer-newsletter">
+      <h3>Subscribe to Our Newsletter</h3>
+      <form id="newsletter-form">
+        <input type="email" placeholder="Enter your email" id="newsletter-email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Gift Shop. All rights reserved.</p>
+  </div>
+</footer>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
