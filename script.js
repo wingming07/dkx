@@ -10,14 +10,14 @@ function closeModal() {
 
 // Function to contact via WhatsApp
 function contactWhatsApp() {
-    const phoneNumber = "1234567890"; // Replace with your WhatsApp number
+    const phoneNumber = "7373319576"; // Replace with your WhatsApp number
     window.open(`https://wa.me/${phoneNumber}?text=Hi, I'm interested in your product.`);
     closeModal();
 }
 
 // Function to contact via Email
 function contactEmail() {
-    const email = "support@giftshop.com"; // Replace with your email address
+    const email = "sakthi0527@gmail.com"; // Replace with your email address
     window.location.href = `mailto:${email}?subject=Product Inquiry&body=I am interested in your product.`;
     closeModal();
 }
